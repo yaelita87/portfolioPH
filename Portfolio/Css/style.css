@@ -18,10 +18,42 @@ body {
     color: bisque;
 }
 
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand{
+    margin-top: -7px;
+}
+
 .brand span {
   color: aqua;
 }
 
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+   list-style: none;
+}
+
 .menu a{
     color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active{
+  color: aqua;
+}
+
+.menu a:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .4s;
 }
