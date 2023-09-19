@@ -75,8 +75,24 @@ span{
     color: aqua;
 }
 
-img{
-padding: 2em;
-    width: 100%;
-    height: 100%;
+.down-cv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .75);
+}
+.down-cv:hover{
+   background-color:#222746;
+   box-shadow: none;
+   color: azure;
+}
+
+.main img{
+   width: 450px;
+   border: 7px solid aqua;
+   height: 500px;
+   margin-left: 75px;
 }
