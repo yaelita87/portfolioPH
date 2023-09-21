@@ -123,7 +123,11 @@ span{
     height: 4px;
     width: 70px;
     background-color: aqua;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 2em;
+}
+
+.about p{
+    margin-bottom: 1em;
 }
 
