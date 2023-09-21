@@ -101,4 +101,29 @@ span{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
+    align-items: center;
 }
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-me {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-me h2{
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider {
+    height: 4px;
+    width: 70px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+
