@@ -24,3 +24,10 @@ body {
     padding: 2em;
 }
 
+.brand{
+    margin-top: -7px;
+}
+
+.brand span {
+  color: aqua;
+}
