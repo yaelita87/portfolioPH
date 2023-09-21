@@ -47,3 +47,22 @@ body {
     text-decoration: none;
     padding: 10px 20px;
 }
+
+.menu .active{
+    color: aqua;
+  }
+  
+  .menu a:hover{
+      background-color: aqua;
+      color: #191c32;
+      transition: ease-in .4s;
+  }
+  
+  .main {
+      margin: 0 auto;
+      width: 80vw;
+      height: 80vh;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+  }
