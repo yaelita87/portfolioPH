@@ -96,3 +96,9 @@ span{
    height: 500px;
    margin-left: 75px;
 }
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+}
