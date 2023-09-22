@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
+.wrapper, .portfolio {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -130,4 +130,22 @@ span{
 .about p{
     margin-bottom: 1em;
 }
+
+.port-head {
+    width: 100vw;
+    padding: 5em;
+}
+
+.port-head h2 {
+    font-size: 2.5em;
+}
+
+.portfolio .container{
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 
