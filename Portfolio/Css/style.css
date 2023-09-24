@@ -149,12 +149,14 @@ span{
 }
 
 .card {
-    width: 300px;
+    width: 350px;
+    background-color: #222746;
+    height: 450px;
 }
 
 .card-img{
     width: 100%;
-    height: 150px;
+    height: 225px;
     background-image: url(../Imagen/images.jpeg);
     background-size: cover;
 }
