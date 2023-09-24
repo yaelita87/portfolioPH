@@ -174,3 +174,14 @@ span{
     text-decoration: none;
 }
 
+.projects-links i{
+    font-size: 2em;
+}
+
+.card .details {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+
