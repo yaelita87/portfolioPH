@@ -159,4 +159,18 @@ span{
     background-size: cover;
 }
 
+.card-title {
+    padding: 20px;
+
+}
+
+.projects-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects-links a {
+    color: #FFF;
+    text-decoration: none;
+}
 
