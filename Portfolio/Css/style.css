@@ -179,9 +179,21 @@ span{
 }
 
 .card .details {
-    display: flex;
-    justify-content: center;
+    width: 70%;
     margin: 1em;
+}
+
+.card .details a{
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+}
+
+.project-detail-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 
