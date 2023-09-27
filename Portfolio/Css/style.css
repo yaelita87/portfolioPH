@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper, .portfolio {
+.wrapper {
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -52,11 +52,14 @@ body {
     color: aqua;
   }
   
-  .menu a:hover{
+  .menu li:hover a{
       background-color: aqua;
       color: #191c32;
-      transition: ease-in .4s;
-  }
+     }
+
+    .menu li a:hover{
+        color: #222746;
+    }
   
   .main {
       margin: 0 auto;
@@ -65,13 +68,14 @@ body {
       display: grid;
       grid-template-columns: repeat(2,1fr);
       align-items: center;
+      gap: 2em;
   }
 
   h1 {
     font-size: 3em;
 }
 
-span{
+.info-content span{
     color: aqua;
 }
 
@@ -85,16 +89,15 @@ span{
     box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .75);
 }
 .down-cv:hover{
-   background-color:#222746;
    box-shadow: none;
    color: azure;
 }
 
 .main img{
-   width: 450px;
+   width: 350px;
    border: 7px solid aqua;
-   height: 500px;
-   margin-left: 75px;
+   height: 520px;
+   z-index: 1;
 }
 
 .about {
@@ -131,13 +134,24 @@ span{
     margin-bottom: 1em;
 }
 
-.port-head {
+.portfolio,
+.contact{
     width: 100vw;
-    padding: 5em;
+    background-color: #191c32;
+    color: #FFF;
 }
 
-.port-head h2 {
+.port-head {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.port-head h2,
+.contact-head h2{
     font-size: 2.5em;
+    color: #FFF;
 }
 
 .portfolio .container{
@@ -145,58 +159,74 @@ span{
     height: 80vw;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .card {
     width: 350px;
     background-color: #222746;
-    height: 450px;
     margin: 1em;
 }
 
-.card-img{
+.card__img{
     width: 100%;
     height: 225px;
-    background-image: url(../Imagen/images.jpeg);
+    background-image: url(https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543491/samples/2-original_agisst.png);
     background-size: cover;
 }
 
-.card-title {
+.card__title {
     padding: 20px;
 
 }
 
-.projects-links {
+.card__projects-links {
     display: flex;
     justify-content: space-evenly;
 }
 
-.projects-links a {
+.card__projects-links a {
     color: #FFF;
     text-decoration: none;
 }
 
-.projects-links i{
+.card__projects-links i{
     font-size: 2em;
 }
 
-.card .details {
-    width: 70%;
+.button-content {
+    display: flex;
+    justify-content: center;
     margin: 1em;
 }
 
-.card .details a{
+.project-details-button a{
     text-decoration: none;
     color: #191c32;
-    text-transform: uppercase;
+    
+} 
+
+
+
+.contact {
+    padding: 3em;
 }
 
-.project-detail-content {
+.container-content {
+    margin: 0 auto;
     display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 1em;
+    align-items: center;
 }
+
+.contact img{
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+}
+
+
+
+
 
 
