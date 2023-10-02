@@ -95,7 +95,7 @@ h1 {
 
 .main img {
   border:  7px solid aqua;
-  width: 350px;
+  width: 450px;
   height: 520px;
   z-index: 1;
 }
@@ -177,6 +177,7 @@ h1 {
   height: 200px;
   background-image: url(https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543491/samples/2-original_agisst.png);
   background-size: cover;
+ 
 }
 
 .card__title {
@@ -222,6 +223,7 @@ h1 {
   width: 750px;
   height: 700px;
   bottom: 0px;
+  opacity: .3;
 }
 
 .form-group {
