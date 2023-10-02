@@ -62,10 +62,11 @@ body {
   margin: 0 auto;
   width: 80vw;
   height: 80vh;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 2em;
+
 }
 
 h1 {
@@ -98,6 +99,7 @@ h1 {
   width: 450px;
   height: 520px;
   z-index: 1;
+ 
 }
 
 .about {
@@ -108,7 +110,7 @@ h1 {
 }
 
 .about img {
-  width: 100%;
+  width: 150%;
   grid-column: 1/5;
 }
 
