@@ -143,11 +143,12 @@
             <img src="./Imagen/IMG_1263-PhotoRoom.png-PhotoRoom.png" alt="">
             <div class="contact-form">
                 <h4>Send me a message...</h4>
-                <form class="form-group">
-                 <input type="text" placeholder="Name">
-                 <input type="email" placeholder="Email">
-                    <textarea placeholder="Place your message here..."> </textarea>
-                        <button type="submit" class="btn-submit">
+                <form class="form-group" id="contactForm" action="https://formspree.io/f/mnqkorwg" method="POST">
+                    <label>Your email:</label>
+                 <input type="email" name="email" id="email">
+                
+                    <textarea name="message" placeholder="Place your message here..." id="message"> </textarea>
+                        <button type="submit" class="btn-submit" id="submitButton">
                             Send
                         </button>
                  </form>
@@ -168,7 +169,22 @@
           <i class="fab fa-twitter-square"></i>
         </div>
       </footer>
-
-   </body>
+      
+      <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Evita que el formulario se envíe de inmediato
+            
+              // Envía el formulario
+              this.submit();
+            // Restablece los valores de los campos del formulario a cadena vacía
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+            
+          
+        });
+    </script>
+      
+          </body>
 
 </html>
+
