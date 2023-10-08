@@ -11,15 +11,12 @@ body {
 
 .wrapper, .main, .about, .portfolio, .contact-section, .footer {
     width: 100%;
-    max-width: 120%; /* Ajusta el ancho máximo según tus preferencias */
+    max-width: 120%; 
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
   }
 
-
-
-  
 .wrapper {
   
   background-color: #191c32;
