@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 * {
-  margin: 0;  
+  margin: 0;
+  
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.wrapper, .main, .about, .portfolio, .contact-section, .footer {
+    width: 100%;
+    max-width: 120%; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+
+
+  
 .wrapper {
-  width: 100vw;
-  height: 100vh;
+  
   background-color: #191c32;
   color: #fff;
 }
@@ -261,6 +272,7 @@ h1 {
 }
 
 .footer {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
